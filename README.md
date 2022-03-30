@@ -6,7 +6,7 @@
 
 <h3>⛩ Curso: Desenvolvimento de Software Multiplataforma 🦜</h3>
 
-<h3>⛩ Matéria: Design Digital🦉</h3>
+<h3>⛩ Matéria: Design Digital 🦉</h3>
 
 <hr> 
 
