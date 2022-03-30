@@ -14,7 +14,7 @@
 <div>
     <div>
     <ul>
-       <Li>Waireframe-Desktop-Mobile(em pdf na :file_folder:pasta Doc🌀</Li>
+       <Li>Waireframe-Desktop-Mobile (em pdf na pasta Doc :file_folder:) :heavy_check_mark:</Li>
        <Li> Prototipo Navegavel  :heavy_check_mark: </Li>
        <Li>Codigo HTML(:file_folder:Pasta/templates/) E CSS(:file_folder:Pasta/static/CSS):heavy_check_mark:</Li>
        <Li> Vídeo do YouTube :heavy_check_mark:</Li>
