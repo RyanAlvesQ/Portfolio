@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio </title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="max-width">
+           
+            <div class="logo">
+                <img src="../static/img/logoPatt (3).png" alt="">
+                <a href="#">Portfó<span>lio</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="{{ url_for('Inicio') }}"> Inicio </a></li>
+                <li><a href="{{ url_for('Sobre') }}">Sobre</a></li>
+                <li><a href="{{ url_for('Contato') }}">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--HOME INÍCIO-->
+    <section class="home2" id="home2">
+        <div class="icons2">
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/2gmail.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/in.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/2twitter.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/2git.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/linkedin.png" alt=""> </a>
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="../static/img/img3.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text"> Sou Ryan Alves e trabalho como <span>desenvolvedor</span></div> <br>
+                    <p>Tenho 17 anos, moro em São José dos Campos - SP. Estudei na ETEC Professora Ilza Nascimento Pintus, onde cursei o ETIM (Ensino Técnico Integrado ao Médio) Desenvolvimento de Sistemas. Atuamente sou aluno da FATEC Professor Jessen Vidal, onde curso o ensino superior em Desenvolvimento de Software Multiplataforma.
+
+                        Tenho o objetivo de agregar na empresa com meus conhecimentos e ganhar experiência para projetos futuros. 
+                        </p>
+                    <a href="https://github.com/XLryan246">Baixar CV</a> <br> <br> <br> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trabalhos" id="trabalhos">
+        <div class="max-width">
+            <h2 class="title">Meus trabalhos</h2>
+            <div class="trabalhos-content">
+                <a href="https://github.com/impulseteam/projeto-integrador-2022-1---FATEC-DSM">Sistema de Gestão de serviços</a>
+                <a href="#">Portifolio</a>
+                <a href="#">Algoritmos criados em Python</a>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer font-small blue">
+        <div class="icons">
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/wpp.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/gmail.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/insta.png" alt=""> </a>
+            <a href="https://ionic.io/ionicons"> <img src="../static/img/icons/twitter.png" alt=""> </a>
+
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/script.js"></script>
+
+
+</body>
+
+</html>
