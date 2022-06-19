@@ -122,7 +122,7 @@ footer {
     background: url(../img/banner6.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 1000px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -167,7 +167,21 @@ footer {
     background: none;
 }
 
+.icons .pintinho a {
+    display: inline-block;
+    background: #a71f25;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #a71f25;
+}
 
+.icons .pintinho a:hover {
+    color: #a71f25;
+    background: none;
+}
 /*---------MENU MOBILE----------*/
 
 .menu-btn {
@@ -438,10 +452,6 @@ footer .icons img {
     margin-top: 125px;
 }
 
-.contact .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .contact .contact-content .column {
     width: calc(87% - 30px);
@@ -682,6 +692,9 @@ footer .icons img {
     }
     .services .serv-content .card {
         width: 100%;
+    }
+    .icons2 img {
+        margin-left: 220px;
     }
 }
 
