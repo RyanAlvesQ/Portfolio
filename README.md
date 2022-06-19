@@ -22,8 +22,9 @@
      
    <h3 align="center"> Descrição das pastas </h3>
    <ul>
+      <Li>:file_folder:Pasta-portfolio= Doc, Src, requirements.txt, Procfile, README.md </Li>
       <Li>:file_folder:Doc= Wireframe-Mobile.pdf  </Li>
-      <Li>:file_folder:Pasta-src= static, app.py, requirements.txt </Li>
+      <Li>:file_folder:Pasta-src= static, app.py, </Li>
       <dd>:file_folder:Pasta-static= CSS (style.css), img (Imagens utilizadas), js (JavaScript)
       <Li>:card_index_dividers:	templates= (Contato.html),(Inicio.html),(Sobre.html). </Li>
       <Li>README.md
