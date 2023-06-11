@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifolio</title>
-        <link rel="stylesheet" href="../static/CSS/style.css">
-    </head>
-    <body>
-        <div class="navbar">
-            <div class="max-width">
-               
-                <div class="logo">
-                    <img src="../static/img/logoPatt (3).png" alt="">
-                    <a href="#">Portfó<span>lio</span></a>
-                </div>
-                <ul class="menu">
-                    <li><a href="{{ url_for('Inicio') }}"> Inicio </a></li>
-                    <li><a href="{{ url_for('Sobre') }}">Sobre</a></li>
-                    <li><a href="{{ url_for('Contato') }}">Contato</a></li>
-                </ul>
-                <div class="menu-btn">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <!-- Hotjar Tracking Code for my site -->
+<!-- Hotjar Tracking Code for my site -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3529455,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="max-width">
+
+            <div class="logo">
+                <img src="../static/img/logoPatt (3).png" alt="">
+                <a href="#">Portfó<span>lio</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="{{ url_for('Inicio') }}"> Inicio </a></li>
+                <li><a href="{{ url_for('Sobre') }}">Sobre</a></li>
+                <li><a href="{{ url_for('Contato') }}">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
             </div>
         </div>
-        <!--HOME INÍCIO-->
-        <section class="home3" id="home3">
-            <section class="contact" id="contact">
-                <div class="max-width">
-                    <div class="contact-content">
-                        <div class="column left">
-                            <div class="text">Informações: </div>
-                            <div class="icons">
-                                <div class="row">
-                                    <i class="fas fa-user"></i>
-                                    <div class="info">
-                                        <div class="head">Nome</div><br>
-                                        <div class="sub-title">Ryan Alves de Quadros</div><br>
-                                    </div>
+    </div>
+    <!--HOME INÍCIO-->
+    <section class="home3" id="home3">
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Informações: </div>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Nome</div><br>
+                                    <div class="sub-title">Ryan Alves de Quadros</div><br>
                                 </div>
-                                <div class="row">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <div class="info">
-                                        <div class="head">Endereço</div><br>
-                                        <div class="sub-title">São José dos Campos, São Paulo</div><br>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <i class="fas fa-envelope"></i>
-                                    <div class="info">
-                                        <div class="head">Email</div><br>
-                                        <div class="sub-title">Ryan.quadros246@gmail.com</div>
-
-
-
-                                    
-                                    </div>
-                                    
-                                </div>
-                                <div class="pintinho"><a href = "mailto:Ryan.quadros@gmail.com?subject = Feedback&body = Message"> Mande um e-mail</a></div>
                             </div>
-                        </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Endereço</div><br>
+                                    <div class="sub-title">São José dos Campos, São Paulo</div><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div><br>
+                                    <div class="sub-title">Ryan.quadros246@gmail.com</div>
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="pintinho"><a
+                                    href="mailto:Ryan.quadros@gmail.com?subject = Feedback&body = Message"> Mande um
+                                    e-mail</a></div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+            </div>
         </section>
-                <footer class="page-footer font-small blue">
-                    <div class="icons">
-                        <a href="https://web.whatsapp.com">
-                            <img src="../static/img/icons/wpp.png" alt="">
-                        </a>
-                        <a href="mailto:Ryan.quadros@gmail.com?subject = Feedback&body = Message">
-                            <img src="../static/img/icons/gmail.png" alt="">
-                        </a>
-                        <a href="https://www.instagram.com/xlryan__/">
-                            <img src="../static/img/icons/insta.png" alt="">
-                        </a>
-                        <a href="https://twitter.com/XLryan_">
-                            <img src="../static/img/icons/twitter.png" alt="">
-                        </a>
-                    </div>
-                </footer>
-                <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-                <script src="../static/js/script.js"></script>
-        </body>
-    </html>
+    </section>
+    <footer class="page-footer font-small blue">
+        <div class="icons">
+            <a href="https://web.whatsapp.com">
+                <img src="../static/img/icons/wpp.png" alt="">
+            </a>
+            <a href="mailto:Ryan.quadros@gmail.com?subject = Feedback&body = Message">
+                <img src="../static/img/icons/gmail.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/xlryan__/">
+                <img src="../static/img/icons/insta.png" alt="">
+            </a>
+            <a href="https://twitter.com/XLryan_">
+                <img src="../static/img/icons/twitter.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>
